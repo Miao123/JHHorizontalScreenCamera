@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  imageViewController.h
 //  横屏时访问相册
 //
 //  Created by andy on 16/3/17.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface imageViewController : UIImagePickerController
 
 @end
-
